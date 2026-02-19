@@ -7,7 +7,7 @@ pillow==10.4.0
 huggingface-hub==0.26.0
 sentencepiece==0.2.0
 sentence-transformers==3.3.1
-faiss-cpu==1.9.0
+faiss-cpu==1.13.2 
 biopython==1.84
 numpy==1.26.4
 
