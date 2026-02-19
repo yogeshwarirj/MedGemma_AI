@@ -1,0 +1,40 @@
+flask==3.0.0
+flask-cors==4.0.0
+transformers==4.50.0
+torch==2.5.0
+accelerate==1.2.1
+pillow==10.4.0
+huggingface-hub==0.26.0
+sentencepiece==0.2.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+biopython==1.84
+numpy==1.26.4
+```
+
+---
+
+## 📄 **File 4: `.gitignore`**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Models (don't commit large files)
+*.bin
+*.safetensors
+models/
+
+# Environment
+.env
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
